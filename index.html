@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#38251f">
+  <meta name="description" content="刘淼鑫燚的摄影与视觉内容作品集：时尚摄影、汉服视觉、商业静物、建筑摄影与虚拟图像。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="刘淼鑫燚｜摄影与视觉内容">
+  <meta property="og:description" content="从现场拍摄到数字图像，观看刘淼鑫燚的精选作品与制作过程。">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="media/fashion-portrait.webp" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+  <title>刘淼鑫燚｜摄影与视觉内容</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到主要内容</a>
+  <header class="site-header" id="site-header">
+    <a class="wordmark" href="#top" aria-label="刘淼鑫燚，返回首页">刘淼鑫燚<span>摄影与视觉内容</span></a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="打开导航" aria-controls="main-nav" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="主导航"><a href="#works">作品</a><a href="#virtual">实验影像</a><a href="#about">关于与简历</a><a href="#contact">联系</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="hero-kicker">LIU MIAO XIN YI <span>/</span> SELECTED WORKS 2026</p>
+        <h1 id="hero-title">刘淼鑫燚</h1>
+        <p class="hero-subtitle">摄影与视觉内容</p>
+        <p class="hero-intro">从前期策划、现场拍摄到后期呈现，持续探索真实影像与数字图像之间的关系。</p>
+        <div class="hero-actions"><a class="text-action light" href="#works">观看作品 <span aria-hidden="true">↘</span></a><a class="text-action subtle" href="downloads/portfolio.pdf" target="_blank" rel="noopener">打开 PDF 作品集</a></div>
+      </div>
+      <div class="hero-image-wrap"><img class="hero-image" src="media/fashion-portrait.webp" alt="棕色背景的时尚肖像：模特佩戴墨镜，披着棕色毛领" width="1024" height="1536" fetchpriority="high"><p class="hero-image-note">BROWN ATTITUDE <span>时尚摄影 / 小组项目</span></p></div>
+      <div class="hero-bottom"><span>向下浏览</span><span>摄影 · 视觉传播 · 数字影像</span></div>
+    </section>
+    <section class="work-index content-shell" id="works" aria-labelledby="works-title">
+      <div class="section-intro"><p class="section-label">SELECTED WORKS</p><h2 id="works-title">作品目录</h2><p>从实拍到数字影像。点击项目进入完整展示，或按创作方式筛选。</p></div>
+      <div class="filters" role="group" aria-label="筛选作品"><button type="button" class="filter is-active" data-filter="all" aria-pressed="true">全部</button><button type="button" class="filter" data-filter="photo" aria-pressed="false">摄影</button><button type="button" class="filter" data-filter="visual" aria-pressed="false">视觉传播</button><button type="button" class="filter" data-filter="digital" aria-pressed="false">数字影像</button></div>
+      <div class="project-list" id="project-list"></div>
+    </section>
+    <section class="chapter chapter-fashion" id="fashion" aria-labelledby="fashion-title">
+      <div class="chapter-header content-shell"><div><p class="section-label">FASHION PHOTOGRAPHY</p><h2 id="fashion-title">棕色姿态</h2><p class="english-title">BROWN ATTITUDE</p></div><div class="chapter-description"><p>用统一的棕色空间衬托服装材质与人物姿态。系列由全身、动作到近景肖像逐步靠近，让衣着细节和情绪共同成为画面的主角。</p><p class="credit-line">时尚摄影课程 · 三人小组完成<br>我的参与：前期策划与汇报、机位与灯位预案、现场布光协作；拍摄墨镜下拉的近景肖像。</p></div></div>
+      <div class="fashion-gallery content-shell">
+        <figure class="fashion-gallery-full"><button type="button" class="image-button" data-lightbox data-title="棕色姿态 · 全身造型" aria-label="放大查看棕色姿态全身照"><img src="media/fashion-full.webp" alt="模特身穿棕色毛领外套，在棕色布景前迈步" loading="lazy"></button><figcaption>完整造型 / FULL LOOK</figcaption></figure>
+        <figure class="fashion-gallery-gesture"><button type="button" class="image-button" data-lightbox data-title="棕色姿态 · 动作与姿态" aria-label="放大查看棕色姿态动作照"><img src="media/fashion-gesture.webp" alt="模特在棕色背景前调整墨镜与外套" loading="lazy"></button><figcaption>动作与姿态 / GESTURE</figcaption></figure>
+        <figure class="fashion-gallery-portrait"><button type="button" class="image-button" data-lightbox data-title="棕色姿态 · 近景肖像" aria-label="放大查看棕色姿态近景肖像"><img src="media/fashion-portrait.webp" alt="模特佩戴墨镜的棕色系近景肖像" loading="lazy"></button><figcaption>近景肖像 / PORTRAIT · 本人拍摄</figcaption></figure>
+      </div>
+      <div class="process content-shell"><div class="process-copy"><p class="section-label">PROCESS</p><h3>同一张照片，三种空间</h3><p>背景改变了人物与服装的关系。拖动分界线，对比原图或高级灰方案与最终采用的棕色版本。</p><div class="compare-options" role="group" aria-label="选择对比版本"><button type="button" class="compare-option is-active" data-before="media/fashion-portrait-raw.webp" aria-pressed="true">棚拍原图</button><button type="button" class="compare-option" data-before="media/fashion-portrait-gray.webp" aria-pressed="false">高级灰方案</button></div><p class="process-note">最终展示统一采用棕色背景；对照图用于呈现画面选择过程。</p></div><div class="compare" id="fashion-compare" style="--split: 50%"><img class="compare-base" id="compare-before" src="media/fashion-portrait-raw.webp" alt="时尚肖像棚拍原图"><img class="compare-after" src="media/fashion-portrait.webp" alt="时尚肖像棕色背景定稿"><span class="compare-label before">对照</span><span class="compare-label after">棕色定稿</span><span class="compare-divider" aria-hidden="true"><span>↔</span></span><input type="range" id="compare-range" min="0" max="100" value="50" aria-label="拖动比较时尚肖像的原图与棕色定稿"></div></div>
+    </section>
+    <section class="chapter chapter-hanfu content-shell" id="hanfu" aria-labelledby="hanfu-title">
+      <div class="chapter-header"><div><p class="section-label">VISUAL COMMUNICATION</p><h2 id="hanfu-title">汉服视觉</h2><p class="english-title">HANFU VISUAL</p></div><div class="chapter-description"><p>从服装轮廓、色彩和版式入手，把汉服的穿着感转化为三张不同气质的产品海报。</p><p class="credit-line">汉服购买决策调研与视觉传播 · 团队项目<br>我的参与：访谈整理、文案与图片排版协作。</p></div></div>
+      <div class="poster-controls"><p>横向浏览海报</p><div><button type="button" class="round-arrow" id="poster-prev" aria-label="上一张汉服海报">←</button><button type="button" class="round-arrow" id="poster-next" aria-label="下一张汉服海报">→</button></div></div>
+      <div class="poster-track" id="poster-track" tabindex="0" aria-label="汉服海报画廊">
+        <figure><button type="button" class="image-button" data-lightbox data-title="宋式衣裳 · 汉服视觉海报" aria-label="放大查看宋式衣裳海报"><img src="media/hanfu-green.webp" alt="浅绿色汉服产品海报" loading="lazy"></button><figcaption>宋式衣裳</figcaption></figure>
+        <figure><button type="button" class="image-button" data-lightbox data-title="重新解构 · 汉服视觉海报" aria-label="放大查看重新解构海报"><img src="media/hanfu-blue.webp" alt="深蓝色汉服产品海报" loading="lazy"></button><figcaption>重新解构</figcaption></figure>
+        <figure><button type="button" class="image-button" data-lightbox data-title="灰度与明制 · 汉服视觉海报" aria-label="放大查看灰度与明制海报"><img src="media/hanfu-gray.webp" alt="灰蓝色汉服产品海报" loading="lazy"></button><figcaption>灰度与明制</figcaption></figure>
+      </div>
+    </section>
+    <section class="chapter chapter-still" id="still-life" aria-labelledby="still-title"><div class="chapter-header content-shell"><div><p class="section-label">STILL LIFE PHOTOGRAPHY</p><h2 id="still-title">茶叶产品视觉</h2><p class="english-title">COLOUR & LIGHT</p></div><div class="chapter-description"><p>两组色彩，两种产品氛围。以道具、背景和光线组织产品情境，让包装在画面中保持清晰的视觉中心。</p><p class="credit-line">课程静物摄影 · 布景、拍摄与基础后期</p></div></div><div class="tea-gallery content-shell"><figure><button type="button" class="image-button" data-lightbox data-title="茶叶产品视觉 · 红色布景" aria-label="放大查看红色茶叶产品照"><img src="media/tea-red.webp" alt="红色背景前的茶叶礼盒、茶杯与陶瓷花器" loading="lazy"></button><figcaption>红色布景：以包装为视觉中心</figcaption></figure><figure><button type="button" class="image-button" data-lightbox data-title="茶叶产品视觉 · 绿色布景" aria-label="放大查看绿色茶叶产品照"><img src="media/tea-green.webp" alt="绿色茶罐与茶具、花枝组成的产品静物" loading="lazy"></button><figcaption>绿色布景：用枝花与茶具营造轻盈感</figcaption></figure></div></section>
+    <section class="chapter chapter-architecture content-shell" id="architecture" aria-labelledby="architecture-title"><div class="chapter-header"><div><p class="section-label">ARCHITECTURE PHOTOGRAPHY</p><h2 id="architecture-title">古楼映江城</h2><p class="english-title">WUHAN / HUANGHE TOWER</p></div><div class="chapter-description"><p>从屋檐、檐角与结构细节观察黄鹤楼。抬头取景时，建筑的秩序与天空共同成为画面的组成部分。</p><p class="credit-line">武汉建筑摄影系列 · 本人拍摄与后期整理</p></div></div><div class="architecture-grid"><button type="button" class="image-button" data-lightbox data-title="古楼映江城 · 飞檐与天空" aria-label="放大查看建筑摄影：飞檐与天空"><img src="media/architecture-eave.webp" alt="仰视黄鹤楼飞檐与蓝天" loading="lazy"></button><button type="button" class="image-button" data-lightbox data-title="古楼映江城 · 结构中轴" aria-label="放大查看建筑摄影：结构中轴"><img src="media/architecture-axis.webp" alt="黄鹤楼屋檐中轴与蓝天" loading="lazy"></button><button type="button" class="image-button" data-lightbox data-title="古楼映江城 · 檐下细节" aria-label="放大查看建筑摄影：檐下细节"><img src="media/architecture-detail.webp" alt="黄鹤楼彩绘檐下结构细节" loading="lazy"></button><button type="button" class="image-button" data-lightbox data-title="古楼映江城 · 层叠屋檐" aria-label="放大查看建筑摄影：层叠屋檐"><img src="media/architecture-corner.webp" alt="黄鹤楼层叠屋檐与天空" loading="lazy"></button></div></section>
+    <section class="chapter chapter-virtual" id="virtual" aria-labelledby="virtual-title"><div class="chapter-header content-shell"><div><p class="section-label">DIGITAL IMAGE & FILM</p><h2 id="virtual-title">屏幕之中的人</h2><p class="english-title">VIRTUAL IMAGE</p></div><div class="chapter-description"><p>当电子屏幕代替面孔，表情成为可读取的状态。静态系列把这一设定带入街道、课堂与通勤场景；动态短片让个体走入同质化的人群。</p><p class="credit-line">AI 图像生成与 Photoshop 修整 · 实验影像生成与后期剪辑</p></div></div><div class="virtual-grid content-shell" id="virtual-grid"></div><div class="film-section content-shell"><div class="film-copy"><p class="section-label">SHORT FILM / 28.7 SEC</p><h3>意识上传后的怪诞狂欢</h3><p>短片由写实群像切入蓝灰色深度影像：衣着与表情消失，身体只留下轮廓。这段突变被设定为人们将意识上传到云端后，系统内部出现的异常、怪诞的集体狂欢。</p><button type="button" class="text-action light" id="open-film">播放完整短片 <span aria-hidden="true">↗</span></button></div><button type="button" class="film-poster" id="open-film-poster" aria-label="播放《屏幕之中的人》短片"><img src="media/screen-people-poster.jpg" alt="屏幕头人物站在整齐排列的人群中央" loading="lazy"><span class="play-symbol" aria-hidden="true">▶</span><span class="film-duration">00:29</span></button></div></section>
+    <section class="about content-shell" id="about" aria-labelledby="about-title"><div class="about-title"><p class="section-label">ABOUT & RESUME</p><h2 id="about-title">关于我</h2><p>刘淼鑫燚<br>摄影与视觉内容</p></div><div class="about-body"><p class="about-lead">湖北美术学院摄影专业本科在读，作品涵盖时尚人像、产品静物、建筑摄影和数字图像。</p><p>我关注从构思、现场拍摄到后期呈现的完整过程。在团队项目中参与前期方案、机位规划与布光协作，也独立完成产品静物和建筑摄影的拍摄与整理。</p><div class="about-details"><div><h3>教育</h3><p>湖北美术学院<br>视觉艺术设计学院 · 摄影专业<br>2023 级本科在读</p></div><div><h3>实践方向</h3><p>摄影师助理<br>商业静物摄影<br>视觉内容制作</p></div><div><h3>工作方法</h3><p>前期视觉方案与拍摄顺序<br>现场用光与画面协作<br>Photoshop 后期与素材整理</p></div></div><div class="download-actions"><a href="downloads/resume.pdf" target="_blank" rel="noopener">查看简历 PDF <span aria-hidden="true">↗</span></a><a href="downloads/resume.docx" download>下载可编辑简历 <span aria-hidden="true">↓</span></a><a href="downloads/portfolio.pdf" target="_blank" rel="noopener">查看完整作品集 <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+  <footer class="footer" id="contact"><div class="content-shell footer-inner"><div><p class="section-label">CONTACT</p><h2>一起做出<br>值得观看的影像。</h2></div><div class="footer-links"><a href="mailto:2023050697@qq.com">2023050697@qq.com</a><a href="tel:+8619072596637">19072596637</a><p>摄影与视觉内容 · 求职与项目合作</p></div></div><div class="content-shell footer-bottom"><span>© 2026 刘淼鑫燚</span><a href="#top">返回顶部 ↑</a></div></footer>
+  <dialog class="lightbox" id="lightbox" aria-label="作品大图查看器"><div class="lightbox-bar"><p id="lightbox-caption"></p><button type="button" id="lightbox-close" aria-label="关闭大图">关闭 ×</button></div><div class="lightbox-stage"><button type="button" class="lightbox-arrow" id="lightbox-prev" aria-label="上一张">←</button><img id="lightbox-image" alt=""><button type="button" class="lightbox-arrow" id="lightbox-next" aria-label="下一张">→</button></div><p class="lightbox-hint">方向键切换 · Esc 关闭</p></dialog>
+  <dialog class="film-dialog" id="film-dialog" aria-label="播放《屏幕之中的人》短片"><button type="button" id="film-close" aria-label="关闭影片">关闭 ×</button><video id="film-video" controls playsinline preload="none" poster="media/screen-people-poster.jpg"><source src="media/screen-people-film.mp4" type="video/mp4">你的浏览器暂不支持视频播放。<a href="media/screen-people-film.mp4">下载短片</a></video><p>《屏幕之中的人》 · 实验影像 · 2026</p></dialog>
+</body>
+</html>
+
